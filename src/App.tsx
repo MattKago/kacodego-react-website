@@ -1,14 +1,9 @@
 import React, { useEffect } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import { Header } from './components/Header';
-import { HeroSection } from './components/HeroSection';
-import { ServicesSection } from './components/ServicesSection';
-import { ToolsSection } from './components/ToolsSection';
-import { AboutSection } from './components/AboutSection';
-import { ProjectsSection } from './components/ProjectsSection';
-import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
-import { RevealOnScroll } from './components/RevealOnScroll';
-
+import { HomePage } from './pages/HomePage';
+import { PortfolioPage } from './pages/PortfolioPage';
 
 export function App() {
   useEffect(() => {
@@ -27,7 +22,9 @@ export function App() {
       window.removeEventListener('scroll', handleParallax);
     };
   }, []);
-  return <div className="bg-[#0c1118] text-white min-h-screen relative overflow-hidden">
+
+  return (
+    <div className="bg-[#0c1118] text-white min-h-screen relative overflow-hidden">
       {/* Background elements */}
       <div className="fixed inset-0 z-0">
         {/* Main dark gradient background - brightened */}
@@ -43,26 +40,14 @@ export function App() {
       <div className="relative z-10">
         <Header />
         <main>
-          <HeroSection />
-          <RevealOnScroll>
-            <ServicesSection />
-          </RevealOnScroll>
-          <RevealOnScroll>
-            <ToolsSection />
-          </RevealOnScroll>
-          <RevealOnScroll>
-            <AboutSection />
-          </RevealOnScroll>
-          <RevealOnScroll>
-            <ProjectsSection />
-          </RevealOnScroll>
-          <RevealOnScroll>
-            <ContactSection />
-          </RevealOnScroll>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/portfolio" element={<PortfolioPage />} />
+          </Routes>
         </main>
         <Footer />
       </div>
-      
+
       {/* Global styles for pulsing glow effect and handwriting font */}
       <style jsx global>{`
         @property --angle {
@@ -171,5 +156,6 @@ export function App() {
           font-size: 1.125rem; /* Slightly increased font size */
         }
       `}</style>
-    </div>;
+    </div>
+  );
 }

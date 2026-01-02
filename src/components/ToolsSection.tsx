@@ -7,7 +7,7 @@ export const ToolsSection = () => {
     logo: 'https://7ab97e58dc0749490380ced80f43695d.cdn.bubble.io/f1757076601041x436652815494073400/pngwing.com%20%281%29.png',
     color: 'bg-blue-500'
   }, {
-    name: 'Langchain',
+    name: 'LangGraph',
     description: 'Framework for developing applications powered by language models',
     logo: 'https://avatars.githubusercontent.com/u/126733545?s=200&v=4',
     color: 'bg-green-500'

@@ -28,7 +28,7 @@ export const HeroSection = () => {
             </div>
             <p className="text-gray-400 text-lg md:text-xl max-w-lg">
               We help companies streamline processes, reduce costs, and increase
-              efficiency with cutting-edge automation technologies.
+              efficiency with websites and cutting-edge automation technologies.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <a href="#contact" className="glass-button px-6 py-3">

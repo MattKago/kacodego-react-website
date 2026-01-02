@@ -5,7 +5,7 @@ export const ServicesSection = () => {
   const services = [{
     icon: <CodeIcon className="text-blue-400" />,
     title: 'Custom Automation Solutions',
-    description: 'Tailored automation solutions designed specifically for your business needs and processes.'
+    description: "We don't do 'out of the box.' We build custom AI pipelines that actually fit your business."
   }, {
     icon: <BotIcon className="text-purple-400" />,
     title: 'AI & Machine Learning',
