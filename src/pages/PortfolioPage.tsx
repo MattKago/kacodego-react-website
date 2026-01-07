@@ -14,10 +14,82 @@ const portfolioData: PortfolioItem[] = [
   {
     name: 'Documerise',
     url: 'documerise.com',
-    logoUrl: 'https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg',
+    logoUrl: 'https://b4195786c5bd43c1c3cf7d88e7011f91.cdn.bubble.io/f1767721625878x722035453275205600/Untitled_design__6_-removebg-preview-removebg-preview.png',
     description: 'A powerful web application designed to bridge the gap between physical documents and digital insights. Documerise automates the conversion of bulk images into structured, categorized CSV files, eliminating manual data entry and accelerating digital transformation for businesses.',
     category: 'Web Applications',
     subtitle: 'Intelligent OCR & Data Extraction',
+  },
+  {
+    name: 'Wenze',
+    url: 'https://play.google.com/store/apps/details?id=com.wenzecongo.app&pcampaignid=web_share',
+    logoUrl: 'https://07493a8703375c33e60c7d9c5284c4c6.cdn.bubble.io/f1755635233333x157032157000075900/Untitled%20design%20%2836%29.png',
+    description: 'A seamless mobile marketplace designed to modernize commerce in the Democratic Republic of Congo. Wenze facilitates secure transactions by connecting buyers and sellers through a verified, native interface. It streamlines the trading process with instant listings across 16+ categories, real-time in-app messaging, and premium ad boosting, empowering users to sell faster and trade with confidence.',
+    category: 'Mobile Apps',
+    subtitle: 'Native Mobile Marketplace for the DRC',
+  },
+  {
+    name: 'Wenze Web',
+    url: 'https://wenzecd.com/version-test?debug_mode=true',
+    logoUrl: 'https://07493a8703375c33e60c7d9c5284c4c6.cdn.bubble.io/f1755635233333x157032157000075900/Untitled%20design%20%2836%29.png',
+    description: 'A community-driven digital marketplace specifically designed for the Democratic Republic of Congo to address trust and transparency challenges in local commerce. Built on the Cardano blockchain, Wenze features a mobile-native interface with integrated escrow smart contracts to protect payments and reduce fraud. It streamlines trading with instant listings across 16+ categories, real-time in-app messaging for price negotiation, and premium ad boosting to empower local sellers.',
+    category: 'Web Applications',
+    subtitle: 'Marketplace for the DRC',
+  },
+  {
+    name: 'PI Finance',
+    url: 'https://pifinance.bubbleapps.io/version-test/index/Analytics',
+    logoUrl: 'https://b4195786c5bd43c1c3cf7d88e7011f91.cdn.bubble.io/f1767722535219x371216178766744700/facebook-react-native.jpg',
+    description: 'An advanced financial intelligence platform that leverages AI and RAG (Retrieval-Augmented Generation) to transform raw data into actionable insights. PI Finance features a sophisticated analytics dashboard with real-time visualization of order performance, sales distribution, and customer conversions. Its integrated AI chatbot allows users to query their own databases in natural language, making complex financial auditing and forecasting accessible and instantaneous.',
+    category: 'Web Applications',
+    subtitle: 'AI-Powered Financial Analytics Dashboard',
+  },
+  {
+    name: 'Weather Checker',
+    url: 'https://travelweather-77630.bubbleapps.io/version-test',
+    logoUrl: 'https://b4195786c5bd43c1c3cf7d88e7011f91.cdn.bubble.io/f1767722535219x371216178766744700/facebook-react-native.jpg',
+    description: 'A dynamic weather tracking application powered by the OpenWeather API to provide users with precise, real-time meteorological data. The app features a sleek dashboard displaying critical metrics including temperature, humidity, wind speed, and pressure. Built with a focus on speed and utility, it allows for bulk saving of forecasts, ensuring users stay ahead of changing conditions anywhere in the world.',
+    category: 'Websites',
+    subtitle: 'Real-Time Global Weather Insights',
+  },
+  {
+    name: 'Exotic Travel Centre',
+    url: 'https://exotictravelnet.com/',
+    logoUrl: 'https://exotictravelnet.com/logo.png',
+    description: 'A premium travel platform dedicated to showcasing the beauty of East Africa through bespoke tour packages. Exotic Travel Centre bridges the gap between travelers and unforgettable adventures, offering specialized itineraries for both residents and international visitors. From luxury safari stays to custom outbound packages, the application provides a high-end interface for users to craft and book their dream African getaway.',
+    category: 'Websites',
+    subtitle: 'Tailored Safari & Adventure Experiences',
+  },
+  {
+    name: 'Kenmark Realtors',
+    url: 'kenmarkrealtors.com',
+    logoUrl: 'https://b4195786c5bd43c1c3cf7d88e7011f91.cdn.bubble.io/f1767722535219x371216178766744700/facebook-react-native.jpg',
+    description: 'A comprehensive real estate portal designed to simplify the search for prime land and luxury housing. Kenmark Realtors provides a high-trust platform where users can validate listings and explore all-inclusive deals with ease. Featuring integrated security details, aerial cabling information, and solar lighting specs for properties, the application serves as a one-stop-shop for modern property acquisition and investment.',
+    category: 'Websites',
+    subtitle: 'Dynamic Real Estate Solutions',
+  },
+  {
+    name: 'Zuwenatronics',
+    url: 'zuwenatronics.com',
+    logoUrl: 'https://b4195786c5bd43c1c3cf7d88e7011f91.cdn.bubble.io/f1767722535219x371216178766744700/facebook-react-native.jpg',
+    description: 'A robust e-commerce ecosystem built to streamline the retail experience for high-end electronics and home appliances. Zuwenatronics features a highly organized product categorization system—ranging from smart TVs to power solutions—allowing users to filter and find tech essentials effortlessly. The platform focuses on high-conversion UI and seamless navigation to drive a frictionless digital shopping experience.',
+    category: 'Websites',
+    subtitle: 'Next-Gen Electronics E-commerce',
+  },
+  {
+    name: 'Bluemark Travel Consultancy',
+    url: 'https://bluemarktravel.com/',
+    logoUrl: 'https://bluemarktravel.com/wp-content/uploads/2025/10/cropped-Untitled-design-7-Photoroom-1.png',
+    description: 'A specialized consultancy platform designed to navigate the complexities of international immigration processes. Bluemark Travel provides professional guidance for Study Abroad and Working Abroad applications, offering a reliable bridge for users seeking global opportunities. The application centralizes visa expertise and immigration services into a user-friendly digital hub, ensuring a proficient and trustworthy application journey.',
+    category: 'Websites',
+    subtitle: 'Expert Immigration & Global Mobility',
+  },
+  {
+    name: 'Madan Travel & Tours',
+    url: 'https://madantours.com/',
+    logoUrl: 'https://madantours.com/wp-content/uploads/2025/06/Untitled_design__2_-removebg-preview.png',
+    description: 'A comprehensive tour and travel application designed to deliver unforgettable journeys across iconic destinations like Kenya, Tanzania, and Uganda. Madan Travel & Tours offers a diverse portfolio of services, from thrilling safaris to luxurious beach escapes. The platform emphasizes "anytime, anywhere" accessibility, providing a seamless booking interface that connects travelers with extraordinary cultural and wilderness experiences.',
+    category: 'Websites',
+    subtitle: 'Seamless Global Travel Orchestration',
   },
 ];
 
@@ -28,7 +100,7 @@ const automationsData = [
     subtitle: 'AI-Driven Client Onboarding Agent',
     description: 'Developed and deployed an intelligent chatbot for Facebook and Instagram to automate shipment inquiries and lead capture. By providing instant, 24/7 responses to complex tracking queries, the agent streamlined the onboarding process and ensured high-quality data collection for the sales pipeline.',
     category: 'Client Management',
-    logoUrl: 'https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg',
+    logoUrl: 'https://b4195786c5bd43c1c3cf7d88e7011f91.cdn.bubble.io/f1767721781335x625330009100991600/logo-0f2e7217bb3bcf2913f1f0e339f5d3b80af69654a74af4be8b3d87c9eae63d84.png',
     siteLink: 'https://tumamizigo.com/'
   },
 ];
@@ -118,7 +190,7 @@ export const PortfolioPage = () => {
                             {expandedItem === item.name && (
                               <div className="mt-4 pl-14 fade-in">
                                 <p className="text-gray-400 mb-4 text-sm">{item.description}</p>
-                                <a href={`https://${item.url}`} target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-blue-400 hover:text-blue-300 text-sm font-semibold group">
+                                <a href={item.url.startsWith('http') ? item.url : `https://${item.url}`} target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-blue-400 hover:text-blue-300 text-sm font-semibold group">
                                   Visit Website 
                                   <ExternalLink size={16} className="ml-2 transition-transform group-hover:translate-x-1" />
                                 </a>
